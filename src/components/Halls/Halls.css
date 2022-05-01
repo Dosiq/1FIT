@@ -1,0 +1,16 @@
+.Main{
+  margin-top: 80px;
+  width: 100%;
+  justify-content: space-between;
+  width: 1920px;
+  height: 1080px;
+}
+.Main_content{
+  background-color: blue;
+  width: 600px;
+  height: 1100px;
+}
+.Main_content_map{
+  width: 1320px;
+  height: 1100px;
+}

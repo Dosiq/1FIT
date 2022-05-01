@@ -5,25 +5,23 @@ import Header from './components/Header-Footer/Header'
 import Footer from './components/Header-Footer/Footer'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Rate from './components/Rate'
-import Halls from './components/Halls'
-import Article from './Article'
+import Rate from './components/Rate/Rate'
+import Halls from './components/Halls/Halls'
 import { Route, Routes, Switch } from 'react-router-dom';
+import SignIn from './components/Signin/SignIn';
 
 function App() {
   return (
     <div className='App_conteainer'>
         <div className='App_Header'><Header /></div>
-
-      
-        <div className="App">
+        <div>
             <Routes>
               <Route exact path='/' element={<Content/>}></Route>
               <Route exact path='/Halls' element={<Halls/>}></Route>
+              <Route exact path='/SignIn' element={<SignIn/>}></Route>
             </Routes>
-        </div>
-
-        <div className='App_Footer'><Footer/></div>
+          </div>
+        
     </div>
   );
 }

@@ -1,3 +1,7 @@
-.App{
-  height: 8000px;
+.App_conteainer{
+  width: 1920px;
+  height: 100%;
+}
+.App_Header{
+  margin-top: -80px;
 }

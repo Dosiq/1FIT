@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Rate.css'
-import check from './check.png'
-import next from './Carousel/next.png'
+import check from '../images/check.png'
+import next from '../Carousel/next.png'
 
 
 

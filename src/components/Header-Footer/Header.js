@@ -32,7 +32,7 @@ const Header = () =>{
                 </div>
 
                 <div className='Header_aut_conteiner'>
-                    <div className='Header_login'>Вход</div>
+                    <Link to="/SignIn" className='Header_login'>Вход</Link>
                     <div className='Header_signup'>Регистрация</div>
                 </div>
            </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Work.css'
-import HowToWork1 from './HowToWork1'
+import HowToWork1 from '../Howtowork/HowToWork1'
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Halls.css'
-import YanMapTwo from './MapTwo'
+import YanMapTwo from '../Maps/MapTwo'
 
 
 const Halls = () => {
@@ -8,7 +8,6 @@ const Halls = () => {
 	return (
 		
 		<div className='Main'>
-      <div className='Main_content'>
 
         <div className='Main_content'>
 
@@ -17,7 +16,6 @@ const Halls = () => {
           <YanMapTwo />
         </div>
 
-      </div>
 		</div>
 		
 	);

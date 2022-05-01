@@ -1,0 +1,11 @@
+.SignIn_conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007aff;
+}
+.SignIn_conteiner_reg{
+  width: 640px;
+  height: 860px;
+  padding: 160px;
+}

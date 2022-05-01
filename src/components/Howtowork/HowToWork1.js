@@ -1,16 +1,17 @@
 import React from 'react'
 import styles from './HowToWork.css'
-import apple from './social_apple_mac_65.png'
-import playMarket from './google_play_icon_198147.png'
-import Ali from './aliexpress_logo_icon_167892.png'
-import PhoneOne from './step-1.png' 
-import PhoneTwo from './step-2.png' 
-import PhoneThree from './step-3.png'
+import apple from '../images/social_apple_mac_65.png'
+import playMarket from '../images/google_play_icon_198147.png'
+import Ali from '../images/aliexpress_logo_icon_167892.png'
+import PhoneOne from '../images/step-1.png' 
+import PhoneTwo from '../images/step-2.png' 
+import PhoneThree from '../images/step-3.png'
 
-const Content = () => {
+const HowTo_Work = () => {
 
 	return (
 		<div className='Main_HowTo_Work'>
+      <div className='Main_HowTo_Work_conteiners'>
 
       <div className='Main_HowTo_Work_text1'>Как работает 1Fit?</div>
 
@@ -94,9 +95,9 @@ const Content = () => {
 
 
 
-
+      </div>
 		</div>
 		
 	);
 }
-export default Content;
+export default HowTo_Work;

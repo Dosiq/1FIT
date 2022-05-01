@@ -50,3 +50,10 @@
   color: #8391A1;
   overflow: hidden;
 }
+ .Card_main_content_photo_conteiner:hover, .Card_main_content_photo {
+  transition: 0.5s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .Card_main_content_photo_conteiner:hover, .Card_main_content_photo:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+ }
