@@ -1,0 +1,105 @@
+.Header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: #FFF;
+  z-index: 3;
+}
+.Header_main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Header_logo{
+  margin-right: 72px;
+  cursor: pointer;
+}
+.Header_logo, .logo{
+  width: 76px;
+  height: 32px;
+  margin-right: 90px;
+  margin-left: 20px;
+}
+.Header_spisok{
+  margin-right: auto;
+}
+.spisok{
+  width: 100%;
+  height: 24px;
+  font-weight: 600;
+  display: flex;
+  transition: all 0.15s ease-out 0s;
+  direction: none;
+  cursor: pointer;
+}
+.spiok_conteiner{
+  margin-right: 100px;
+}
+.spiok_conteiner:hover{
+  text-decoration: underline;
+}
+
+
+
+
+.Header_city_conteiner{
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+}
+.Header_city{
+  width: 170px;
+  height: 24px;
+  align-items: center;
+}
+.city{
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.Header_aut_conteiner{
+  display: flex;
+  width: 250px;
+  height: 48px;
+  justify-content: space-between;
+}
+.Header_login{
+  width: 85px;
+  height: 48px;
+  color: #326EE5;
+  background-color: #FFF;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 40px;
+  border: 1px solid #326EE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Header_login:hover{
+  Box-shadow:0px 1px 0px #326EE5,0px -1px 0px #326EE5,1px 0px 0px #326EE5,-1px 0px 0px #326EE5;
+  transition: 0.2s;
+}
+.Header_signup{
+  width: 144.5px;
+  height: 48px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 40px;
+  border: 1px solid #326EE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #5A8EF5 0%, #326EE5 100%);
+  box-shadow: 0px 22px 44px rgb(50 110 229 / 25%);
+  cursor: pointer;
+}
+.Header_signup:hover{
+  background: linear-gradient(180deg, #2A68E4 0%, #174CB4 100%);
+}

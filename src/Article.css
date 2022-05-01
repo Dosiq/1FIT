@@ -1,0 +1,13 @@
+.App{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App_Main{
+  width: 1180px;
+  width: 100%;
+  
+}
+.App_Footer{
+  margin-bottom: auto;
+}

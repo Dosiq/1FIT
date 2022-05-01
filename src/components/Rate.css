@@ -1,0 +1,125 @@
+.Rate{
+  width: 100%;
+  height: 1360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Rate_main{
+  width: 1180px;
+  height: 1270px;
+  justify-content: center;
+}
+.Rate_main_text{
+  font-size: 2.25rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.Rate_main_conteiner{
+  width: 100%;
+  height: 1270px;
+  margin: 0;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: space-between;
+}
+.Rate_main_conteiner_box{
+  width: 100%;
+  height: 586px;
+  border: 1px solid #E4EBFF;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.Rate_main_conteiner_box_price{
+  width: 274px;
+  height: 181px;
+  padding: 32px;
+}
+.Rate_main_conteiner_box_price_time{
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+}
+.Rate_main_conteiner_box_price_cost{
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+.Rate_main_conteiner_box_price_conteiner_info{
+  display: flex;
+  justify-content: space-between;
+}
+.Rate_main_conteiner_box_price_conteiner_info_payment, .Rate_main_conteiner_box_price_conteiner_info_time{
+  font-size: 0.8125rem;
+}
+.Rate_main_conteiner_box_price_conteiner_info_time{
+  font-weight: 600;
+}
+.Rate_main_conteiner_box_price_conteiner_button{
+  margin-top: 12px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #326EE5;
+  border-radius: 4px;
+  color: #326EE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.Rate_main_conteiner_box_info_slider_li_img{
+  width: 24px;
+  height: 24px;
+}
+.Rate_main_conteiner_box_info{
+  width: 338px;
+  height: 339px;
+  padding: 24px;
+}
+.Rate_main_conteiner_box_info_button{
+  width: 290px;
+  height: 64px;
+  border-radius: 100px;
+  color: #fff;
+  background: linear-gradient(180deg, #5A8EF5 0%, #326EE5 100%);
+  box-shadow: 0px 22px 44px rgb(50 110 229 / 25%);
+  border: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Rate_main_conteiner_box_info_button:hover{
+  background: linear-gradient(180deg, #2A68E4 0%, #174CB4 100%);
+}
+.Rate_main_conteiner_box_info_slider_li{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+
+}
+.Rate_main_conteiner_box_info_slider_li_text{
+  margin-left: 24px;
+}
+.Rate_main_conteiner_box_info_slider{
+  padding: 0;
+}
+.Rate_main_conteiner_box_info_button_img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.Rate_main_conteiner_box_info_button_conteiner{
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

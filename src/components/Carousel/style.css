@@ -1,0 +1,14 @@
+.div_block{
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aodi{
+  width: 500px;
+}
+.rec.rec-arrow {
+  border-radius: 50%;
+}

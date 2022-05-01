@@ -1,0 +1,173 @@
+.Footer{
+    width: 100%;
+    height: 933px;
+    background-color: #062343;
+    display: flex;
+    justify-content: center;
+}
+.Footer_main{
+    width: 1180px;
+    height: 813px;
+    margin-top: 80px;
+}
+.Footer_main_questions{
+    width: 100%;
+    height: 333px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.Footer_main_questions_main{
+    height: 237px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer_main_questions_texts{
+    width: 410px;
+    height: 237px;
+    margin-right: 80px;
+}
+.Footer_main_questions_texts_one{
+    font-size: 30px;
+    font-weight: 800;
+}
+.Footer_main_questions_texts_two{
+    font-size: 1rem;
+    color: #8391a1;
+    margin-top: 18px;
+    width: 400px;
+}
+.Footer_main_questions_inputs{
+    width: 593px;
+    height: 237px;
+}
+.Footer_main_questions_inputs_name{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 3.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 1px solid #B9C1CA;
+}
+.Footer_main_questions_inputs_phone{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 1px solid #B9C1CA;
+}
+.Footer_main_questions_inputs_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_main_questions_inputs_buttons_personal{
+    width: 296px;
+    height: 36px;
+}
+.Footer_main_questions_inputs_buttons_personal_text1{
+    font-size: 0.75rem;
+    display: block;
+    color: #1A202C;
+}
+.Footer_main_questions_inputs_buttons_personal_text2{
+    color: #326EE5;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: block;
+}
+.Footer_main_questions_inputs_buttons_personal_text2:hover{
+    text-decoration: underline;
+}
+.Footer_main_questions_inputs_buttons_button{
+    width: 252px;
+    height: 57px;
+    border-radius: 100px;
+    color: #fff;
+    background: linear-gradient(180deg, #5A8EF5 0%, #326EE5 100%);
+    box-shadow: 0px 22px 44px rgb(50 110 229 / 25%);
+    border: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Footer_main_questions_inputs_buttons_button:hover{
+    background: linear-gradient(180deg, #2A68E4 0%, #174CB4 100%);
+}
+.Footer_main_data_content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.Footer_main_data_content_address{
+    width: 160px;
+    height: 214px;
+}
+.Footer_main_data_content_company{
+    width: 134px;
+    height: 214px;
+}
+  .Footer_main_data_content_cooperation{
+    width: 198px;
+    height: 214px;
+}
+.Footer_main_data_content_others{
+    width: 250px;
+    height: 214px;
+}
+.Footer_main_data_content_address_phone, .Footer_main_data_content_company_comp, .Footer_main_data_content_cooperation_coop, .Footer_main_data_content_others_other, .Footer_main_data_content_address_email{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+.Footer_main_data_content_company_halls, .Footer_main_data_content_cooperation_data, .Footer_main_data_content_others_data{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #8F9BAE;
+    cursor: pointer;
+}
+.Footer_main_data_content_address_address{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #8F9BAE;
+}
+.Footer_main_data_content_company_halls_contacts, .Footer_main_data_content_cooperation_data_partnner, .Footer_main_data_content_others_data_use, .Footer_main_data_content_others_data_conf, .Footer_main_data_content_others_data_faq{
+      margin-top: 12px;
+}
+.Footer_main_data_content_address_phone:hover, .Footer_main_data_content_address_email:hover, .Footer_main_data_content_company_halls_studios:hover, .Footer_main_data_content_company_halls_contacts:hover, .Footer_main_data_content_cooperation_data_client:hover, .Footer_main_data_content_cooperation_data_partnner:hover, .Footer_main_data_content_others_data_oferta:hover, .Footer_main_data_content_others_data_use:hover, .Footer_main_data_content_others_data_conf:hover, .Footer_main_data_content_others_data_faq:hover{
+    text-decoration: underline;
+}
+.Footer_main_line{
+    color: #1A202C;
+    background-color: #1A202C;
+}
+
+
+.Footer_main_firm{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.Footer_main_firm_text{
+    width: 325px;
+    height: 25px;
+    color: #8F9BAE;
+}
+.Footer_main_firm_icons{
+    width: 156px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_main_firm_icon{
+    height: 20px;
+    color: #8F9BAE;
+    cursor: pointer;
+}

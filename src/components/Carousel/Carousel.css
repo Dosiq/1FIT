@@ -1,0 +1,37 @@
+.Carousel_block{
+  width: 909px;
+}
+.Carousel_buttons{
+  margin-left: auto;
+  display: flex;
+  width: 96px;
+  height: 40px;
+  margin-bottom: auto;
+  position: relative;
+}
+.button1, .button2{
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.button1{
+  border: 2px solid rgb(50, 110, 229);
+  background-color: #fff;
+}
+.button2{
+  border: 2px solid rgb(50, 110, 229);
+  background: rgb(50, 110, 229);
+}
+.button1_css, .button2_css{
+  width: 30px;
+  height: 30px;
+}
+.Carousel_block_block_margin{
+  margin-top: 50px;
+}
