@@ -32,11 +32,14 @@
   font-weight: 600;
   display: flex;
   transition: all 0.15s ease-out 0s;
-  direction: none;
   cursor: pointer;
 }
 .spiok_conteiner{
   margin-right: 100px;
+  margin-right: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 .spiok_conteiner:hover{
   text-decoration: underline;

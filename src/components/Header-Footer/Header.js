@@ -1,19 +1,21 @@
 import './Header.css'
 import logo from "./photos/52818.jpg"
+import { Route, Routes, Switch, Link } from 'react-router-dom';
+
 const Header = () =>{
     return (
         <div className='Header'>
             <div className='Header_main'>
 
-            <div className='Header_logocity_conteiner'>
+            <Link to="/" className='Header_logocity_conteiner'>
                 <div className='Header_logo'>
                     <img src={logo} className="logo"></img>
                 </div>
-            </div>
+            </Link>
 
             <div className='Header_spisok'>
                 <div className='spisok'>
-                       <div className='spiok_conteiner'>Залы и студии</div>
+                       <Link to="/Halls" className='spiok_conteiner'>Залы и студии</Link>
                        <div className='spiok_conteiner'>Как это работает</div>
                        <div className='spiok_conteiner'>Цены</div>
                       <div className='spiok_conteiner'>Блог</div>
