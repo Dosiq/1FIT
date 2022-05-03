@@ -15,9 +15,9 @@ const Header = () =>{
 
             <div className='Header_spisok'>
                 <div className='spisok'>
-                       <Link to="/Halls" className='spiok_conteiner'>Залы и студии</Link>
+                       <Link to="Halls" className='spiok_conteiner'>Залы и студии</Link>
                        <div className='spiok_conteiner'>Как это работает</div>
-                       <div className='spiok_conteiner'>Цены</div>
+                       <Link to="Cost" className='spiok_conteiner'>Цены</Link>
                       <div className='spiok_conteiner'>Блог</div>
                 </div>
             </div>

@@ -9,18 +9,21 @@ import Rate from './components/Rate/Rate'
 import Halls from './components/Halls/Halls'
 import { Route, Routes, Switch } from 'react-router-dom';
 import SignIn from './components/Signin/SignIn';
+import Cost from './components/Cost/Cost'
 
 function App() {
   return (
     <div className='App_conteainer'>
-        <div className='App_Header'><Header /></div>
-        <div>
+        <Header />
+          <div>
             <Routes>
               <Route exact path='/' element={<Content/>}></Route>
-              <Route exact path='/Halls' element={<Halls/>}></Route>
-              <Route exact path='/SignIn' element={<SignIn/>}></Route>
+              <Route exact path='Halls/*' element={<Halls/>}></Route>
+              <Route exact path='Cost/*' element={<Cost/>}></Route>
+              <Route exact path='SignIn/*' element={<SignIn/>}></Route>
             </Routes>
           </div>
+        <Footer />
         
     </div>
   );

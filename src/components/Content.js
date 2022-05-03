@@ -30,11 +30,24 @@ const Content = () => {
 
 			<Price />
 
-			<div className='Main_HowToWork1'><HowToWork1 /></div>
+			<HowToWork1 />
 
-			<Rate />
+			<div className='Main_content_rate_conteiner'>
+				<div className='Main_Rate_text'>Выбери свой абонемент 1 Fit</div>
+				<div className='Main_Rate'>
+					<div className='Main_Rate_conteiner'>
+						<Rate title='1 мяс бездимита' price='29 990 ₸'/>	
+						<Rate title='2 мяс бездимита' price='39 990 ₸'/>	
+						<Rate title='3 мяс бездимита' price='49 990 ₸'/>	
+						<Rate title='4 мяс бездимита' price='59 990 ₸'/>	
+						<Rate title='на год' price='89 990 ₸'/>	
+					</div>
+				</div>
+			</div>
+			
 
-			<Footer />
+			
+			
 			
 				
 			

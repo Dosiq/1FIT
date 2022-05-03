@@ -1,11 +1,38 @@
+.SignIn{
+  padding-top: 80px;
+  height: 1080px;
+  display: flex;
+  background-image: url(https://www.mota.ru/upload/resize/1920/1080/upload/wallpapers/source/2015/12/16/23/03/46939/mota.ru_20151216038-e12.jpg);
+}
 .SignIn_conteiner{
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007aff;
+  background-color: #2e6ee6;
+  width: 50%;
+  overflow: hidden;
+  z-index: 2;
 }
 .SignIn_conteiner_reg{
   width: 640px;
   height: 860px;
   padding: 160px;
+}
+.SignIn_conteiner_signin{
+  width: 640px;
+  height: 760px;
+}
+.SignIn_conteiner_signin_icon{
+  width: 206px;
+}
+.SignIn_conteiner_signin_form{
+  width: 320px;
+  height: 269px;
+  padding: 40px;
+  background-color: #fff;
+}
+.SignIn_back{
+  width: 50%;
+  overflow: hidden;
 }

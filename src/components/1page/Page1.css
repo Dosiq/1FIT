@@ -20,8 +20,10 @@
   background: rgba(50, 110, 229, 0.12);
   border-radius: 100px;
   color: #326EE5;
-  text-align: center;
   margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Content_main_introduction_price_time{
   width: 140px;
@@ -31,6 +33,9 @@
   text-align: center;
   align-items: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Content_main_introduction_abonnement{
   margin-bottom: 48px;
